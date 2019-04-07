@@ -1,0 +1,15 @@
+{
+  "name": "redisq-docker",
+  "version": "1.0.0",
+  "description": "A Dockerized implementation of David Marquis' Redis PubSub Message Queue",
+  "main": "index.js",
+  "repository": "https://github.com/MatthewMerrill/redisq-docker",
+  "author": "Matthew Merrill",
+  "license": "MIT",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  }
+}
